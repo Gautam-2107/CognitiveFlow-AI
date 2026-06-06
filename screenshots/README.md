@@ -10,7 +10,7 @@
 
 ### Feature Distributions by Focus Level
 
-![Feature Distribution](Feature%20Distributions%20by%20Focus%20Level.jpeg)
+![Feature Engineering Impact](./Feature%20Engineering%20improved%20graph.JPEG)
 
 ### Feature Correlation Matrix
 
