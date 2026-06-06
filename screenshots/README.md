@@ -8,17 +8,13 @@
 
 ![Data Cleaning](Data%20Cleaning%20Before%20vs%20After%20graph.jpeg)
 
-### Feature Distributions by Focus Level
 
-![Feature Engineering Impact](./Feature%20Engineering%20improved%20graph.JPEG)
 
 ### Feature Correlation Matrix
 
 ![Correlation Matrix](Feature%20Correlation%20Matrix.jpeg)
 
-### Impact of Feature Engineering
 
-![Feature Engineering Impact](Feature%20Engineering%20improved%20graph.JPEG)
 
 ### Model Performance Comparison
 
