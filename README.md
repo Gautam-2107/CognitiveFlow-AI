@@ -2,91 +2,127 @@
 
 ## Cognitive Readiness & Focus Classification System
 
-CognitiveFlow AI is a Machine Learning-based system that predicts a user's cognitive readiness and focus level using behavioral and productivity-related factors.
+### Overview
 
-## Project Overview
+CognitiveFlow AI is a Machine Learning based system that predicts a user's cognitive readiness and focus level using behavioral, productivity, and cognitive factors.
 
-Students and professionals often experience reduced productivity due to poor sleep, excessive screen time, mental fatigue, distractions, and cognitive overload.
+The project analyzes factors such as:
 
-This project uses Machine Learning techniques to analyze these factors and classify a user's cognitive readiness and focus level.
+* Sleep Duration
+* Screen Time
+* Mental Fatigue
+* Mental Energy
+* Mental Clarity
+* Distractions
+* Decision Load
+* Task Completion
+* Effort Level
+* Satisfaction
+
+and predicts the user's cognitive state and focus score.
+
+
+
+## Problem Statement
+
+Students and professionals often experience productivity loss due to fatigue, distractions, cognitive overload, and poor work-life balance.
+
+This project aims to build an intelligent system capable of estimating cognitive readiness and focus level using machine learning techniques and explainable AI.
 
 ## Dataset
 
-- Custom dataset collected through Google Forms
-- Approximately 500 survey responses
-- Self-collected and manually curated dataset
+* Custom dataset collected using Google Forms
+* Approximately 500 survey responses
+* Data cleaned and preprocessed before training
+* Additional feature engineering performed to improve prediction performance
 
-### Features Used
-
-- Sleep Duration
-- Screen Time
-- Mental Fatigue
-- Mental Energy
-- Distractions
-- Task Load
-- Recall Ability
-- Focus Level
+---
 
 ## Machine Learning Pipeline
 
-### Data Collection
-Survey responses collected through Google Forms.
+### 1. Data Collection
 
-### Data Preprocessing
-- Missing value handling
-- Data cleaning
-- Feature transformation
+* Google Forms survey responses
+* Manual validation of collected records
 
-### Feature Engineering
-- Feature selection
-- Data normalization
-- Derived feature creation
+### 2. Data Cleaning
 
-### Model Training
-Multiple Machine Learning models were trained and evaluated.
+* Missing value handling
+* Invalid record removal
+* Data transformation
 
-## Models Used
+### 3. Exploratory Data Analysis
 
-- Logistic Regression
-- K-Nearest Neighbors (KNN)
-- Random Forest
-- Gradient Boosting
-- XGBoost
-- Stacked Ensemble Model
+* Feature distributions
+* Correlation analysis
+* Target distribution analysis
 
-## Evaluation
+### 4. Feature Engineering
 
-The models were evaluated using:
+Created additional cognitive metrics including:
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
-- Cross Validation
+* Cognitive Load Ratio
+* Attention Span Duration
+* Sustained Attention Efficiency
+* Context Switching Cost
+* Task Switching Frequency
 
-## Explainable AI
+### 5. Model Training
 
-SHAP (SHapley Additive Explanations) was used to understand feature importance and improve model interpretability.
+Models evaluated:
+
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Random Forest
+* Gradient Boosting
+* XGBoost
+* Stacked Ensemble Model
+
+### 6. Explainable AI
+
+Implemented SHAP (SHapley Additive Explanations) for:
+
+* Feature Importance Analysis
+* Model Interpretability
+* Decision Transparency
+
+## Evaluation Metrics
+
+Models were evaluated using:
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Cross Validation
+* R² Score
+* Mean Absolute Error (MAE)
 
 ## Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- XGBoost
-- SHAP
-- Matplotlib
-- Seaborn
-- Gradio
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* XGBoost
+* SHAP
+* Matplotlib
+* Seaborn
+* Gradio
+
+## Results
+
+Key outcomes:
+
+* Improved model performance through feature engineering
+* High predictive accuracy using ensemble learning
+* Explainable predictions through SHAP analysis
+* Interactive prediction interface using Gradio
 
 ## Future Improvements
 
-- Larger dataset collection
-- Real-time cognitive monitoring
-- Personalized productivity recommendations
-- Cloud deployment
-
-
+* Larger real-world dataset collection
+* Real-time cognitive monitoring
+* Cloud deployment
+* Personalized productivity recommendations
 
