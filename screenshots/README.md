@@ -8,7 +8,9 @@
 
 ![Data Cleaning](Data%20Cleaning%20Before%20vs%20After%20graph.jpeg)
 
+### Feature Distributions by Focus Level
 
+![Feature Distribution](Feature%20Distributions%20by%20Focus%20Level.jpeg)
 
 ### Feature Correlation Matrix
 
